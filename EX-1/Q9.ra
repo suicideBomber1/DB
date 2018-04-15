@@ -1,0 +1,10 @@
+\project_{pz}(
+\select_{p1>p2}(
+\rename_{pz, p1}(
+\project_{pizzeria, pizza}((\project_{pizza}(\select_{age>30}Person \join Eats)) \join Serves)
+)
+\join
+\rename_{pz, p2}(
+\project_{pizzeria, pizza}((\project_{pizza}(\select_{age>30}Person \join Eats)) \join Serves)
+)))
+

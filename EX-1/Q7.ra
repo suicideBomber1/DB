@@ -1,0 +1,4 @@
+\project_{age}(\select_{pizza='mushroom'}(Person \join Eats)) \diff
+(\project_{a1}(\select_{a1<a2}
+(\rename_{a1}(\project_{age}(\select_{pizza='mushroom'}(Person \join Eats))) \cross
+\rename_{a2}(\project_{age}(\select_{pizza='mushroom'}(Person \join Eats))))))
